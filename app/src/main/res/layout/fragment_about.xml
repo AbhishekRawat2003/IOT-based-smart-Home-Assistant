@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- Logo -->
+        <!--      ye logo lagega neche he 4th line me  android:src="@drawable/ic_martial_logo"-->
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="24dp"
+            android:contentDescription="Dojo Logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Smart Home"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#333"
+            android:layout_marginTop="16dp" />
+
+        <!-- Team members -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Team Members"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- team -->
+        <!-- team -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Abhishek Rawat"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="4dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Backend"
+                    android:textSize="12sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Frontend"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Anuj Kumar"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="4dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Backend"
+                    android:textSize="12sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Frontend"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Harsh Gupta"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="4dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Backend"
+                    android:textSize="12sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Frontend"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hritik Saroj"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="4dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Backend"
+                    android:textSize="12sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Frontend"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- About Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="start"
+            android:gravity="start" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SmartHomes is an innovative IoT solution that puts the power of smart living in your hands. Our app allows you to seamlessly control and monitor your custom-built IoT devices—lighting, fans, appliances, and more—right from your smartphone"
+            android:textSize="12sp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="#444" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Who We Are $ Our vision"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="start"
+            android:gravity="start" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We are a passionate team of engineers, developers, and smart tech enthusiasts dedicated to transforming modern homes through innovative IoT technology. We build a platform that truly simplifies everyday life."
+            android:textSize="12sp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="#444" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our vision is to make smart living accessible, secure, and easy for everyone. From energy savings to peace of mind, SmartHomes is here to enhance your lifestyle—one connected device at a time."
+            android:textSize="12sp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="#444" />
+
+    </LinearLayout>
+</ScrollView>

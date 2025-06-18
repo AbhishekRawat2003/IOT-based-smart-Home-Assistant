@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="?android:attr/windowBackground"
+
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="100dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:id="@+id/home_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Welcome to Smart Home"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#333"/>
+
+    <TextView
+        android:id="@+id/home_subtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:text="Control your devices below:" />
+
+    <Button
+        android:id="@+id/btn_voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="voice command"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_btn"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Button"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/button_alarm"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Set Alarm"
+        android:textStyle="bold"/>
+<!-- ye mai add kra hu ... remove kr sakte hai-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Living Room Light"
+            android:textSize="16sp" />
+
+        <Switch
+            android:id="@+id/switch_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <!-- Add more UI elements like buttons, switches, etc. here -->
+</LinearLayout>
+</ScrollView>
