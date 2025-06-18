@@ -1,6 +1,7 @@
 # 🏠 IoT-Based Smart Home Automation
 
 This project focuses on building a smart home automation system using IoT technology. It allows you to monitor and control electrical appliances through the Blynk mobile application or web dashboard using ESP32 or NodeMCU microcontrollers.
+An Android + Arduino-based smart home assistant project that allows users to control home appliances using Bluetooth, buttons, and voice commands.
 
 ## 🔧 Features
 
@@ -24,11 +25,20 @@ This project focuses on building a smart home automation system using IoT techno
 2. Data is sent to the Blynk app via Wi-Fi.
 3. User can control devices and monitor values in real-time.
 4. Relay module switches ON/OFF appliances based on app or sensor logic.
+   
+### Android App:
 
-## 📷 Demo & Circuit Diagram
+1. Open in Android Studio.
+2. Connect a phone or emulator.
+3. Build and run.
+4. Pair with HC-05 via Bluetooth settings.
+5. Use app to control devices.
 
-![Circuit Diagram](images/circuit-diagram.png)
-![App Screenshot](images/app-screenshot.png)
+### Arduino:
+
+1. Upload `first.ino` to Arduino Uno using Arduino IDE.
+2. Connect HC-05 to RX/TX, and relays to pins as per code.
+
 
 ## 🚀 Getting Started
 
@@ -37,6 +47,13 @@ This project focuses on building a smart home automation system using IoT techno
 3. Connect sensors and relays as per the diagram.
 4. Start monitoring and controlling your home remotely.
 
-## 📚 License
+## 📜 License
 
-This project is licensed under the MIT License.
+free to use and modify.
+
+---
+
+## 👨‍💻 Author
+
+**Abhishek Rawat**  
+[GitHub Profile](https://github.com/AbhishekRawat2003)
